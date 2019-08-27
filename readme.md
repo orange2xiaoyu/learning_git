@@ -29,7 +29,7 @@ git commit 命令中，-m后面加的是比较的说明。git add可以重复使
 ### 查看仓库状态
 使用git status 查看当前仓库的状态
 git status
-# 输出为：
+输出为：
 On branch master
 nothing to commit, working directory clean
 
@@ -63,16 +63,3 @@ index f1dc24f..1bc5139 100644
 ### 查看提交日志
 使用git log可以查看从最近到最远的提交日志：
 git log 
-输出
-commit 533ff2b718ee32fcc20c23cf09d59ea51c50fde4  # 表示commit id(版本号)
-Author: xiaoyu <xiaoyu@example.com>
-Date:   Tue Aug 27 10:42:10 2019 +0800
-
-    modify readme.txt
-
-commit 9f20c6fa523965339045d1ba1177388d818e2b70
-Author: xiaoyu <xiaoyu@example.com>
-Date:   Tue Aug 27 10:03:02 2019 +0800
-
-    add readme.txt
-
