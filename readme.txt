@@ -1,13 +1,13 @@
 Git is a version control system.
 Git is free software.
 
-###一、git的基本使用
+## git的基本使用
 安装完git之后，如果想要使用git管理仓库，需要先设置自己的名字与邮箱：
 git config --global user.name "xiaoyu"
 git config --global user.email "xiaoyu@example.com"
 
 
-1.1 创建版本库
+### 创建版本库
 首先创建一个空目录，然后将其初始化，使其变为可以使用git管理的仓库：
 mkdir learngit
 cd learngit
@@ -15,7 +15,7 @@ git init
 
 使用ctrl+h可以看到文件夹中隐藏的文件。
 
-1.2 将文件添加到版本库
+### 将文件添加到版本库
 使用git add，将文件添加到仓库
 git add <file>
 eg: git add readme.txt
@@ -26,7 +26,7 @@ eg: git commit -m "add readme.txt"
 
 git commit 命令中，-m后面加的是比较的说明。git add可以重复使用，添加多个文件到仓库，然后使用git commit可以一次性全部提交。
 
-1.3 查看仓库状态
+### 查看仓库状态
 使用git status 查看当前仓库的状态
 git status
 # 输出为：
@@ -60,7 +60,7 @@ index f1dc24f..1bc5139 100644
 +hello word!
 
 
-1.4 查看提交日志
+### 查看提交日志
 使用git log可以查看从最近到最远的提交日志：
 git log 
 # 输出
