@@ -35,7 +35,7 @@ nothing to commit, working directory clean
 
 将readme.txt进行修改，可以使用git status查看当前状态
 git status
-# 输出为：
+输出为：
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -47,7 +47,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 并且我们可以使用git diff查看修改前后的不同：
 git diff readme.txt
-# 输出为：
+输出为：
 diff --git a/readme.txt b/readme.txt
 index f1dc24f..1bc5139 100644
 --- a/readme.txt
@@ -63,7 +63,7 @@ index f1dc24f..1bc5139 100644
 ### 查看提交日志
 使用git log可以查看从最近到最远的提交日志：
 git log 
-# 输出
+输出
 commit 533ff2b718ee32fcc20c23cf09d59ea51c50fde4  # 表示commit id(版本号)
 Author: xiaoyu <xiaoyu@example.com>
 Date:   Tue Aug 27 10:42:10 2019 +0800
