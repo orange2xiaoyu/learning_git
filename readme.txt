@@ -1,7 +1,7 @@
 Git is a version control system.
 Git is free software.
 
-一、git的基本使用
+###一、git的基本使用
 安装完git之后，如果想要使用git管理仓库，需要先设置自己的名字与邮箱：
 git config --global user.name "xiaoyu"
 git config --global user.email "xiaoyu@example.com"
