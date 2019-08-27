@@ -1,5 +1,4 @@
 Git is a version control system.
-<<<<<<< HEAD
 Git is free software.
 Create a new branch is quick and simple.
 
@@ -77,8 +76,7 @@ Date:   Tue Aug 27 10:03:02 2019 +0800
 
     add readme.txt
 
-=======
-GIt is free software.
 
+GIt is free software.
 Creating a new branch is quick & simple.
->>>>>>> featurel
+
