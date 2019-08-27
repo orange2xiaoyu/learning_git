@@ -1,5 +1,7 @@
 Git is a version control system.
 Git is free software.
+Create a new branch is quick.
+
 
 一、git的基本使用
 安装完git之后，如果想要使用git管理仓库，需要先设置自己的名字与邮箱：
